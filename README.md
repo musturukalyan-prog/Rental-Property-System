@@ -19,11 +19,11 @@ Then visit <http://localhost:8000>.
 - Saved homes, property photos, property details, and owner enquiry interaction
 - Booking requests with a dedicated booking history page
 - Owner demo sign-in, request review, room availability, and accept/decline actions
-- Customer booking confirmations with an owner-triggered SMS draft
+- Customer booking confirmations with an owner-triggered WhatsApp draft
 - Light and dark themes with a saved browser preference
 - Preferences based property recommendations
 - Area rent estimates calculated from comparable dataset listings
 - Demand and inventory analytics derived from all loaded listings
 - Listing management with browser-local add/remove actions
 
-Accounts, owner access, preferences, booking requests, and listing changes are demonstrations stored in the current browser's local storage. Booking history is not shared across browsers or devices, owner sign-in is not server-authenticated, and SMS opens a prefilled draft rather than sending automatically. Production use across customer and owner devices requires a shared backend, secure authentication, and an SMS provider. Forty supplied room photos are distributed evenly across all listings. The current `properties.json` contains 600 listings; provide an updated dataset to display 1,000.
+Accounts, owner access, preferences, booking requests, and listing changes are demonstrations stored in the current browser's local storage. Booking history is not shared across browsers or devices, owner sign-in is not server-authenticated, and WhatsApp opens a prefilled draft rather than sending automatically. Production use across customer and owner devices requires a shared backend and secure authentication. Forty supplied room photos are distributed evenly across all listings. The current `properties.json` contains 600 listings; provide an updated dataset to display 1,000.
